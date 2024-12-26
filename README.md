@@ -1,7 +1,7 @@
 # Techno Low Money : ESP8266 Servo Control with Blynk
 
-This project demonstrates how to control a servo motor using the ESP8266, Blynk app, and the ESP8266_ISR_Servo library. It includes functionality to control the servo's position via both the Serial Monitor and the Blynk app.
-Our official website for this project is https://deweysworld.app/technolowmoney
+This project demonstrates how to control a servo motor using the ESP8266, Blynk app, and the ESP8266_ISR_Servo library. It includes functionality to control the servo's position via both the Serial Monitor and the Blynk app.  
+Our official website for this project is [https://deweysworld.app/technolowmoney](https://deweysworld.app/technolowmoney)
 
 ## Features:
 - Control servo position from the Blynk app (Virtual Pin `V1`).
@@ -26,12 +26,14 @@ Our official website for this project is https://deweysworld.app/technolowmoney
   - **ESP8266_ISR_Servo**: For controlling the servo motor.
 
 ### 3. Update WiFi Credentials
-In the code, replace the following placeholders with your WiFi credentials, BLYNK TOKEN:
+In the code, replace the following placeholders with your WiFi credentials and Blynk token:
 ```cpp
 const char ssid[] = "Your_WiFi_SSID";       // Your WiFi SSID
 const char pass[] = "Your_WiFi_Password";   // Your WiFi Password
 #define BLYNK_AUTH_TOKEN "Your_Blynk_Auth_Token"  // Your Blynk Auth Token
 #define BLYNK_TEMPLATE_ID "Your_Blynk_Template_ID"  // Your Blynk Template ID
 #define BLYNK_TEMPLATE_NAME "Your_Blynk_Template_Name"  // Your Blynk Template Name
+```
 
-
+### 4. Code Location
+The code for this project is located in the `esp8266sourcecode.ino` file inside the project folder.
